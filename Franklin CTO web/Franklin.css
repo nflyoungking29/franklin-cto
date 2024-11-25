@@ -1,0 +1,253 @@
+body{
+    background-color: rgba(112, 203, 112, 0.585);
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 400vh;
+}
+div{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.link-box{
+    background-color: white;
+    /* border: red 2px solid; */
+    height: 40px;
+    width: 50px;
+    margin-left: 12%;
+    margin-top: 5%;
+    transform: skew(-20deg);
+    padding: 5px;
+    box-shadow: 10px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+.twitter,img{
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.telegram{
+    background-color: white;
+    /* border: red 2px solid; */
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 10px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+.telegram,img{
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transform: scale(1);
+}
+
+.dexscreener{
+    background-color: white;
+    /* border: red 2px solid; */
+    display: flex;
+    margin-left: 40px;
+    margin-top: -10px;
+    padding: 10px;
+    box-shadow: 10px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+.dexscreener,img{
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    margin-left: 65%;
+    font-family: Comic Sans MS;
+    font-size: 28px;
+    color: green;
+
+}
+.text i{
+    background: #FFF;
+    padding: 15px;
+    display: flex;
+    width: 80%;
+    height: 10%;
+    /* border: 2px solid red; */
+    transform: skewY(-10deg);
+    box-shadow: -15px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+
+.ticker{
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 35%;
+    color: green;
+}
+
+.first-image{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 3%;
+    max-width: 50%;
+    height: auto;
+}
+
+.journey{
+    /* display: flex; */
+    margin-left: 2%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+.story{
+    line-height: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #000;
+}
+
+.video{
+    margin-top: 5%;
+    height: 600px;
+    background-color: rgba(46, 146, 46, 0.491);
+    display: flex;
+}
+.lore{
+    padding-left: 20px;
+    line-height: 30px;
+    margin-top: 2%;
+    color: #000;
+    font-size: 23px;
+    display: flex;
+    font-family: Comic Sans MS;
+}
+.video video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -75%;
+    margin-top: 20%;
+    border: 5px solid #fff;
+}
+.tiktok{
+    font-size: 28px;
+    color: #000;
+    position: relative;
+    top: -1%;
+    right: -1%;
+}
+.tiktok a{
+    position: relative;
+    left: .5%;
+    text-decoration: none;
+    color: blue;
+}
+
+.house{
+    background: #fff;
+    border-radius: 4%;
+    border: 5px solid #fff;
+    width: 90%;
+    height: 10%;
+    position: relative;
+    left: 5%;
+    top: 1%;
+}
+.house img{
+    transform: scale(5.2);
+    position: relative;
+    left: 10%;
+    bottom: -42%;
+}
+.house b{
+    color: green;
+    font-style: normal;
+    font-size: 30px;
+    font-family: Impact;
+    position: relative;
+    left: 25%;
+    bottom: -15%;
+} 
+.house-u{
+    position: relative;
+    top: -6%;
+    left: 30%;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Comic Sans Ms;
+    line-height: 30px;
+}
+
+.box1{
+    border: 3px solid green;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: -4%;
+    left: 35%;
+    padding: .5%;
+    box-shadow: 10px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+.box1 a{
+    text-decoration: none;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+.box2{
+    border: 3px solid green;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: -5.5%;
+    left: 50%;
+    padding: .5%;
+    box-shadow: 10px 10px 6px 0.5px rgba(0,0,0,0.5);
+}
+.box2 a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+.contract{
+    font-size: 40px;
+    font-family: Comic Sans Ms;
+    color: #000;
+}
+.contract i{
+    border: 3px solid green;
+    height: 80px;
+    width: 55%;
+    font-size: 20px;
+    position: relative;
+    bottom: -60px;
+    right: 20%;
+    display: flex;
+    padding: 1%;
+}
+.ca{
+    position: relative;
+    top: 20%;
+}
+
+.copy-btn{
+    background: #fff;
+    border: 2px solid #fff;
+    padding: .3%;
+    position: relative;
+    left: 68%;
+    bottom: -.5%;
+    font-size: 20px;
+}
+.copy-btn:hover{
+    cursor: pointer;
+}
